@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
 </head>
 <body>
     <header>
-        <figure>
+        <figure class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
             <img src="img/Photo.jpg" alt="photo">
         </figure>
-        <div class="top">
+        <div class="top wow fadeOut"data-wow-duration="1s" data-wow-delay="0s">
             <div class="freelancer">
                 <p><a href="#">Freelancer</a></p>
             </div>
@@ -34,14 +35,14 @@
                 </ul>
             </nav>
         </div>
-        <h1>intelligence
+        <h1 class="wow fadeOut" data-wow-duration="1s" data-wow-delay="0s">intelligence
             is nothing without
             ambition.
         </h1>
-        <h2>
+        <h2 class="wow fadeOut" data-wow-duration="1s" data-wow-delay="0s">
             We’re small but impressive creative agency.
         </h2>
-        <div class="read_more">
+        <div class="read_more wow fadeOut" data-wow-duration="1s" data-wow-delay="0s">
             <a href="#">Read More</a>
         </div>
     </header>
@@ -185,4 +186,8 @@
           </section>
     </footer>
 </body>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </html>
